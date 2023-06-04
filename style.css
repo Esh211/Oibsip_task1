@@ -1,0 +1,221 @@
+/* Reset some default styles */
+    /* This is the Task-3 of Level-1 of the Oasis Infobyte Internship. Here, In this task, I have built the Temperature Converter Website where the user will have to input a temperature that should be either in Fahrenheit or in Celsius and then press a "convert" button. After that The converted temperature will then be displayed with the correct unit. */
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Styles for header and navigation */
+    header {
+      background-color: #333;
+      padding: 20px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Styles for search section */
+    .search-section {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .search-section h2 {
+      margin-bottom: 20px;
+    }
+    
+    .search-section form {
+      display: inline-block;
+    }
+    
+    .search-section input {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .search-section button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    
+    /* Styles for offers section */
+    .offers-section {
+      padding: 20px;
+    }
+    
+    .offers-section h2 {
+      margin-bottom: 20px;
+    }
+    
+    .offer-card {
+      display: inline-block;
+      width: 250px;
+      margin: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .offer-card:hover {
+      transform: scale(1.05);
+      background-color: rgb(247, 247, 92);
+    }
+    
+    .offer-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .offer-card .offer-content {
+      padding: 20px;
+    }
+    
+    /* Styles for discounts section */
+    .discounts-section {
+      padding: 20px;
+    }
+    
+    .discounts-section h2 {
+      margin-bottom: 20px;
+    }
+    
+    .discount-card {
+      display: inline-block;
+      width: 250px;
+      margin: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+      transition: transform 0.6s ease-in-out;
+      background-color: beige;
+    }
+    
+    .discount-card:hover {
+      transform: scale(1.15);
+      box-shadow: #555;
+    }
+    
+    .discount-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .discount-card .discount-content {
+      padding: 20px;
+    }
+    
+    /* Styles for login/signup section */
+    .login-signup-section {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .login-signup-section h2 {
+      margin-bottom: 20px;
+    }
+    
+    .login-signup-section form {
+      display: inline-block;
+    }
+    
+    .login-signup-section input {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .login-signup-section button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .login-signup-section button:hover {
+      background-color: #555;
+    }
+    
+    .login-signup-section p {
+      margin-top: 10px;
+    }
+    
+    .login-signup-section p a {
+      color: #333;
+    }
+    
+    /* Styles for destination listing section */
+    .destination-listing-section {
+      padding: 20px;
+    }
+    
+    .destination-listing-section h2 {
+      margin-bottom: 20px;
+    }
+    
+    .destination-card {
+      display: inline-block;
+      width: 300px;
+      margin: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .destination-card:hover {
+      transform: scale(1.05);
+    }
+    
+    .destination-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .destination-card .destination-info {
+      padding: 20px;
+    }
+    
+    .destination-card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .destination-card p {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    
+    .destination-card .price {
+      font-weight: bold;
+    }
+    
+    /* Styles for footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    
